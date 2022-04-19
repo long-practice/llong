@@ -26,9 +26,9 @@
 
 ### project
 - 기타 학습 목표로 진행한 내용
-- 30days ML Tutorial, Titanic 생존자 예측 모델 등
-
 - KDT 프로그래머스 인공지능 3기 데브코스 프로젝트: https://github.com/long-practice/KDT_B1 - 동화책 읽어주기 
+  - Tacotron
+  - WaveNet
 <br>
 <br>
 학습내용 블로그: https://long-practice.github.io/blog
