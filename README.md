@@ -11,7 +11,7 @@
 <br>
 
 ### KDT_assignment
-- 프로그래머스 인공지능 데브코스 3기 과정('21.12.~)
+- 프로그래머스 인공지능 데브코스 3기('21.12.~'22.05)
 - 학습내용 블로그: https://long-practice.github.io/blog
 - 작성한 과제 모음
   - python으로 데이터 다루기, 시각화, EDA
