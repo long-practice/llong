@@ -6,45 +6,45 @@ import sys
 sys.setrecursionlimit(int(2e5) + 10)
 from collections import deque
 
-def solution(n, path, order):
-    pre = {i: 0 for i in range(n)}
-    visited = [False for _ in range(n)]
-    visited[0] = True
 
+def solution(n, path, order):
+    visited = [False for _ in range(n)]
     graph = [[] for _ in range(n)]
+
     for p in path:
         graph[p[0]].append(p[1])
         graph[p[1]].append(p[0])
 
-    for o in order:
-        pre[o[1]] = o[0]
+    direct_graph = [[] for _ in range(n)]
 
     q = deque([0])
-    cannot_visit = 0
-
-
-    def dfs(curr):
-        visited[curr] = True
-        for g in graph[curr]:
-            if not visited[g]:
-                if visited[pre[g]]:
-                    dfs(g)
-                else:
-                    q.append(g)
-        return
-
-
+    visited[0] = True
     while q:
-        curr = q[0]
+        node = q.pop()
+        for g in graph[node]:
+            if not visited[g]:
+                visited[g] = True
+                q.append(g)
+                direct_graph[node].append(g)
 
-        if visited[pre[curr]]:
-            q.popleft()
-            cannot_visit = 0
-            dfs(curr)
-        else:
-            q.rotate(-1)
-            cannot_visit += 1
-            if cannot_visit == len(q):
-                return False
+    for o in order:
+        direct_graph[o[0]].append(o[1])
 
-    return True
+    visited = [False for _ in range(n)]
+    visited2 = [False for _ in range(n)]
+
+
+    def dfs(node):
+        visited[node] = True
+
+        for dg in direct_graph[node]:
+            if not visited2[dg]:
+                if visited[dg]:
+                    return False
+                if not dfs(dg):
+                    return False
+
+        visited2[node] = True
+        return True
+
+    return dfs(0)
