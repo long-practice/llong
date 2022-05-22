@@ -21,7 +21,6 @@
   - CNN, RNN
   - SQL을 이용한 데이터 분석
   - Spark ML
-  - ...
 <br>
 <br>
 
