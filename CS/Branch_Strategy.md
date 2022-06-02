@@ -14,6 +14,8 @@
 
 1. develop 브랜치로부터 본인이 신규 개발할 기능을 위한 feature 브랜치를 생성
 2. feature 브랜치에서 기능을 완성하면 develop 브랜치에 merge
+<br>
+<br>
 
 ### 라이브 서버로 배포
 
