@@ -33,7 +33,8 @@
 ### project
 - 기타 학습 목표로 진행한 내용
 - KDT 프로그래머스 인공지능 3기 데브코스 프로젝트 - 머찐 동화책을 읽어주는 머찌니
-  - https://github.com/long-practice/KDT_B1 (모델부분) / https://github.com/long-practice/KDT_B1_2 (웹 부분)
+  - https://github.com/long-practice/KDT_B1 (모델) <br>
+    https://github.com/long-practice/KDT_B1_2 (웹) 
   - 활용 TTS, 보코더 모델: Tacotron, WaveNet
   - 웹 페이지 구성: Django
   - 데이터 베이스: mysql
