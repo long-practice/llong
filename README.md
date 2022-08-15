@@ -38,5 +38,6 @@
   - 활용 TTS, 보코더 모델: Tacotron, WaveNet
   - 웹 페이지 구성: Django
   - 데이터 베이스: mysql
+- 카카오 인턴십 프로젝트 - 유저 프로파일링 데이터를 이용한 개인화 추천, cold-start 문제 해결 시도
 <br>
 <br>
