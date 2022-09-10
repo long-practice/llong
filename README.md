@@ -38,5 +38,10 @@
   - 활용 TTS, 보코더 모델: Tacotron, WaveNet
   - 웹 페이지 구성: Django
   - 데이터 베이스: mysql
+- 카카오 인턴십 프로젝트 - 유저 프로파일링(UFO) 데이터를 이용한 개인화 추천, cold-start 문제 해결 시도
+  - pLSI 모델을 활용한 추천 생성
+  - 추천 아이템이 특정 인기 아이템에 몰려있는 popularity bias 현상 확인
+  - 개인화 추천을 하기 위해, 즉, popularity bias 현상을 해소하기 위해 UFO 데이터를 이용하여 개인화 추천 시도
+  
 <br>
 <br>
