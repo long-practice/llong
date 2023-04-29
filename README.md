@@ -1,6 +1,5 @@
 ### Algorithm
-- **Algo_Study**: 알고리즘 학습 내용(이것이 취업을 위한 코딩 테스트다 with 파이썬(나동빈 지음 | 한빛미디어))<br>
-  http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162243077#N<br>
+- **Algo_Study**: 알고리즘 학습 내용([이것이 취업을 위한 코딩 테스트다 with 파이썬(나동빈 지음 | 한빛미디어)](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791162243077#N))<br>
   <br>
 - **Algo_Problem**: 알고리즘 문제 풀이<br>
   - BOJ: 백준 저지 문제 풀이
