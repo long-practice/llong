@@ -8,12 +8,6 @@
 <br>
 <br>
 
-### CS
-- **CS_Study**: 내용 일부 요약(면접을 위한 CS 전공지식 노트(주홍철 지음 | 길벗))<br>
-  https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292815727<br>
-  - 디자인 패턴, 운영체제, 데이터베이스, 네트워크
-<br>
-
 ### KDT_assignment
 - 프로그래머스 인공지능 데브코스 3기('21.12.~'22.05)
 - 학습내용 블로그: https://long-practice.github.io/blog
